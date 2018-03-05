@@ -5,4 +5,6 @@ COPY nginx.conf /etc/nginx/nginx.conf
 # config dirs
 RUN mkdir /etc/nginx/stream.conf.d
 
+COPY mystream.conf /etc/nginx/stream.conf.d
+
 #COPY default.conf /etc/nginx/conf.d/default.conf
